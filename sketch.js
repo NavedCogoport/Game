@@ -22,7 +22,7 @@ let alreadyCreated = false;
 
 
 function setup() {
-  createCanvas(450, 400);
+  createCanvas(windowWidth, windowHeight);
 
   
   // Speed of the ball
