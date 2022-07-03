@@ -106,6 +106,7 @@ function draw() {
     //Checking boxes are visible or not and checking ball touches
     // the box, if touches then turn off then visiblity 
     if(box_arr[i].vis && isBallTouched(box_arr[i],ball_x,ball_y,ball_diameter/2)){
+      score++;
       box_arr[i].vis=false;
     }
     if(box_arr[i].vis){
